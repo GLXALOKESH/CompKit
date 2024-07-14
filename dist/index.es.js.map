@@ -1,0 +1,1 @@
+{"version":3,"file":"index.es.js","sources":["../src/components/testcomp/testcomp.js"],"sourcesContent":["import React from 'react'\n\nconst testcomp = () => {\n  return (\n    <div>\n      hello world\n    </div>\n  )\n}\n\nexport default testcomp\n"],"names":["testcomp","React","createElement"],"mappings":"qBAEA,IAAMA,EAAW,WACf,OACEC,EAAAC,cAAA,MAAA,KAAK,cAIT"}

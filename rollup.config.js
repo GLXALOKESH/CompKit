@@ -22,11 +22,12 @@ export default {
   plugins: [
     peerDepsExternal(),
     resolve(),
-    commonjs(),
     babel({
       exclude: 'node_modules/**',
       babelHelpers: 'bundled',
+      presets: ['@babel/preset-env', '@babel/preset-react'],
     }),
+    commonjs(),
     terser(),
   ],
   watch: {
