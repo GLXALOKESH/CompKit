@@ -4,6 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import babel from '@rollup/plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import packageJson from './package.json';
+import css from 'rollup-plugin-css-only';
 
 export default {
   input: 'src/index.js',
@@ -29,6 +30,7 @@ export default {
     }),
     commonjs(),
     terser(),
+    css({ output: 'dist/bundle.css' })
   ],
   watch: {
     include: 'src/**',

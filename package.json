@@ -1,9 +1,11 @@
 {
-  "name": "compkit",
-  "version": "1.0.0",
+  "name": "react-compkit",
+  "version": "1.0.1",
   "description": "This is a react component library",
+  "author": "Alokesh Maitra",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "license": "MIT",
   "files": [
     "dist",
     "src"
@@ -25,11 +27,25 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "rollup": "^2.52.7",
+    "rollup-plugin-css-only": "^4.5.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GLXALOKESH/CompKit.git"
+  },
+  "keywords": [
+    "react",
+    "component-library",
+    "components"
+  ],
+  "bugs": {
+    "url": "https://github.com/GLXALOKESH/CompKit/issues"
+  },
+  "homepage": "https://github.com/GLXALOKESH/CompKit#readme"
 }

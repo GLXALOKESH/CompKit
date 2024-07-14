@@ -1,2 +1,2 @@
-import r from"react";var e=function(){return r.createElement("div",null,"hello world")};export{e as testcomp};
+import r from"react";var e=["children"],n=function(n){return n.children,function(r,e){if(null==r)return{};var n,t,l=function(r,e){if(null==r)return{};var n={};for(var t in r)if({}.hasOwnProperty.call(r,t)){if(e.includes(t))continue;n[t]=r[t]}return n}(r,e);if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(r);for(t=0;t<o.length;t++)n=o[t],e.includes(n)||{}.propertyIsEnumerable.call(r,n)&&(l[n]=r[n])}}(n,e),r.createElement("button",null,"Hello")};export{n as Button};
 //# sourceMappingURL=index.es.js.map

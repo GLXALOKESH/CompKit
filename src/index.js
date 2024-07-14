@@ -1,1 +1,1 @@
-export {default as testcomp} from "./components/testcomp"
+export { default as Button } from './components/Button';
