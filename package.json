@@ -1,6 +1,6 @@
 {
   "name": "react-compkit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a react component library",
   "author": "Alokesh Maitra",
   "main": "dist/index.js",

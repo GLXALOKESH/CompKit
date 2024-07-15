@@ -1,3 +1,3 @@
 # CompKit
 
-this is a repository where is create and store react components
+This is a React Component Library Where you get customisable react components
